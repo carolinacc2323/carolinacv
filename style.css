@@ -1,0 +1,76 @@
+*{
+  margin: 1em;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  /* width: 100%; */
+  /* background-color: #A8DAE3; */
+  text-align: center;
+  font-size: 35px;
+}
+#perfil{
+  width: 175px;
+  height: 175px;
+  margin-top: 1em;
+  margin-left: 5em;
+  margin-bottom: 0.5em;
+  border: solid aliceblue 9px;
+}
+#titulitos{
+  background-color: aliceblue;
+  margin-right: 3.75em;
+  margin-left: 3.75em;
+  /* padding: 0.1em; */
+  text-align: center;
+}
+.mi{
+  text-align: justify;
+  margin: 1em 1em 1em 1em;
+}
+.izq{
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  align-items: center;
+  margin-left: 3em;
+}
+.izqct{
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  align-items: center;
+  margin-left: 1em;
+}
+.izqcp{
+  text-align: center;
+  list-style:none;
+}
+.izqid{
+  text-align: center;
+  list-style:none
+}
+.container{
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  column-gap: 0.01em;
+}
+main{
+  background-color: #F1DCDC;
+}
+/* aside{
+  background-color: pink;
+} */
+/* Lado derecho */
+.linea{
+  border: solid #F1DCDC 4px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.bloque1{
+  margin-left: 5em;
+}
+#titulos{
+  background-color: #F1DCDC;
+  margin-right: 4em;
+  margin-left: 3.75em;
+  /* padding: 0.1em; */
+}
