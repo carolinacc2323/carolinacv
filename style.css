@@ -3,6 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media screen and (max-width: 980px){
+  #contenedor{
+      width: 90%;
+  }
+  #contenido{
+      width: 60%;
+  }
+  #barra_lateral{
+      width:30%;
+  }
+}
+#experiencia{
+  display:none
+}
+.btnimpr{
+  background-color: transparent;
+  color: white;
+  border: 3px groove black;
+  /* padding: 1px; */
+  font-size: 5px;
+  font-weight: bold;
+  /* margin: 20px; */
+}
+.btnimpr:hover{
+  cursor: pointer;
+  background-color: rgb(249, 181, 249);
+}
+.imgpdf{
+  width: 40px;
+  height: 40px;
+}
 section{
   /* width: 100%; */
   /* background-color: #A8DAE3; */
@@ -13,7 +44,7 @@ section{
   width: 175px;
   height: 175px;
   margin-top: 1em;
-  margin-left: 5em;
+  margin-left: 4.75em;
   margin-bottom: 0.5em;
   border: solid aliceblue 9px;
 }
@@ -26,11 +57,11 @@ section{
 }
 .mi{
   text-align: justify;
-  margin: 1em 1em 1em 1em;
+  margin: 1em 2em 1em 2em;
 }
 .izq{
   display: grid;
-  grid-template-columns: 0.2fr 1fr;
+  grid-template-columns: 0.1fr 0.2fr;
   align-items: center;
   margin-left: 3em;
 }
